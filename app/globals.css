@@ -2,6 +2,7 @@
 
 @theme {
   --font-family-sans: 'Inter', sans-serif;
+  --font-family-serif: var(--font-source-serif), Georgia, serif;
 }
 
 :root {
@@ -22,6 +23,7 @@ html {
 
 body {
   text-rendering: optimizeLegibility;
+  font-family: var(--font-family-serif);
 }
 
 h1,
@@ -65,7 +67,7 @@ pre code {
   line-height: 1.5;
 }
 
-pre code > span .sh__token--identifier {
+pre code>span .sh__token--identifier {
   color: white !important;
 }
 
