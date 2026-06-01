@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     canonical: '/'
   },
   title: {
-    default: 'John Smith',
-    template: '%s | John Smith'
+    default: 'Ram Loganda',
+    template: '%s | Ram Loganda'
   },
   description: 'My portfolio, blog, and personal website.'
 };
@@ -33,7 +33,7 @@ export default function RootLayout({
           <main className="max-w-[80ch] mx-auto w-full space-y-6">
             {children}
           </main>
-          <Footer />
+          {/*<Footer />*/}
           <Analytics />
         </div>
       </body>
@@ -41,7 +41,7 @@ export default function RootLayout({
   );
 }
 
-function Footer() {
+/*function Footer() {
   const links = [
     { name: '@johnsmith', url: 'https://x.com/johnsmith' },
     { name: 'youtube', url: 'https://www.youtube.com/@johnsmith' },
@@ -66,4 +66,4 @@ function Footer() {
       </div>
     </footer>
   );
-}
+}*/

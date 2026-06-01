@@ -11,7 +11,7 @@ type BlockquoteProps = ComponentPropsWithoutRef<'blockquote'>;
 
 const components = {
   h1: (props: HeadingProps) => (
-    <h1 className="font-bold text-2xl pt-8 mb-6" {...props} />
+    <h1 className="font-bold text-2xl pt-8 mb-1" {...props} />
   ),
   h2: (props: HeadingProps) => (
     <h2
@@ -27,7 +27,7 @@ const components = {
   ),
   h4: (props: HeadingProps) => <h4 className="font-medium" {...props} />,
   p: (props: ParagraphProps) => (
-    <p className="text-gray-800 dark:text-zinc-300 leading-snug" {...props} />
+    <p className="text-gray-800 dark:text-zinc-300 leading-relaxed" {...props} />
   ),
   ol: (props: ListProps) => (
     <ol
